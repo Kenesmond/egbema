@@ -1,0 +1,417 @@
+Reset some default styles
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-weight: 500;
+}
+video {
+    width: 100%; 
+    max-width: 640px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px; 
+    border: thick solid gold;
+}
+    /* Style for the logo image in navbar */
+.navbar-brand img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 20px;
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
+.niger h6{
+  background-color: green;
+  color: gold;
+  font-weight: 800;
+}
+/* Header styles */
+header h1 {
+  font-size: 2.8rem;
+  color: #ffffff;
+  background-color: goldenrod;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Community grid styles */
+#community-grid {
+  color: white;
+  border: thin solid red;
+  border-radius: 8px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  font-weight: 500;
+  text-shadow: #007bff 1px 1px 2px, #007bff 0 0 1em, #007bff 0 0 0.2em;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+/* Pagination buttons */
+#pagination-controls {
+  margin: 20px 0;
+}
+
+#pagination-controls .btn {
+  min-width: 100px;
+}
+
+/* About section styles */
+.history {
+  color: black;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.history h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: blue;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.history h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  color: blue;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.history h4{
+  margin-top: 10px;
+  font-size: 1.25rem;
+  color: goldenrod;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.history ul {
+  color: black;
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.history p {
+  color: black;
+  margin-top: 10px;
+  line-height: 1.6;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.culture{
+  color:blue;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.culture p{
+  color: black;
+}
+.masquerade{
+  color: black;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.masquerade h2{
+  color: blue;
+}
+.history h1{
+  color: blue;
+}
+.history h4{
+  color: blue;
+}
+
+h1, h2, h3, h4, h6 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: blue;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 1.75rem;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Heritage section styling */
+.heritage {
+  background-color: grey;
+  color: gold;
+  font-weight: 400;
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.heritage h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.heritage h2 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+  font-weight: bold;
+  color:white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.heritage p {
+  font-size: 1.1rem;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+/* Media images styling */
+.media {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.media img {
+  max-width: 200px;
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Community section styling */
+#community-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+#community-grid .card {
+  width: 18rem;
+}
+
+/* About and other sections */
+.history {
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.history h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.history p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+.card {
+    width: 90%;
+  }
+
+  #pagination-controls {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #pagination-controls .btn {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .history {
+    padding: 15px;
+  }
+
+  footer a {
+    font-size: 1.2rem;
+    margin: 6px;
+  }
+
+/* Footer styling */
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 30px 20px;
+  margin-top: 40px;
+  border-top: 3px solid #1a252f;
+}
+
+footer h4 {
+  margin-bottom: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #f39c12;
+}
+
+footer .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer .mt-3 {
+  margin-top: 15px;
+}
+
+/* Social media icons styling */
+footer .mt-3 a {
+  font-size: 1.5rem;
+  margin: 0 8px;
+  display: inline-block;
+}
+
+/* Footer styles */
+footer {
+  background-color: #007bff;
+  padding: 15px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer p {
+  margin-top: 10px;
+}
+
+footer a {
+  font-size: 1.5rem;
+  margin: 0 8px;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ffc107; /* Bootstrap warning color for hover effect */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+    padding: 15px;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  #community-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .media {
+    flex-direction: column;
+    align-items: center;
+  }
+  .video {
+      width: 100%;
+      max-width: 640px;
+      height: auto;
+      display: block;
+      margin: 20px auto; 
+      border-radius: 8px;
+    }
+    /* Style for the logo image in navbar */
+    .navbar-brand img {
+      height: 40px;
+      margin-right: 10px;
+    }
+  }
+
+  
+
+

@@ -1,0 +1,153 @@
+body {
+  font-family: 'Alegreya Sans', 'Montserrat', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+}
+
+/* Container styles */
+.container {
+  max-width: 1200px;
+  padding: 15px;
+}
+
+/* Navbar styles */
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar images */
+.navbar-brand img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 20px;
+  width: 60px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+/* Main Header */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Accordion styles */
+.accordion-item {
+  background: #fff;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  transition: box-shadow 0.3s ease;
+}
+
+.accordion-item:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Accordion Header */
+.accordion-header {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.accordion-button {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Accordion Body */
+.accordion-body {
+  padding: 1rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Footer styles */
+footer {
+  background-color: #007bff;
+  padding: 2rem 1rem;
+  color: white;
+}
+
+footer h4 {
+  margin-bottom: 1rem;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+/* Social media icons */
+a[aria-label] {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  transition: transform 0.2s;
+}
+
+a[aria-label]:hover {
+  transform: scale(1.2);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  /* Reduce header font size on smaller screens */
+  h1 {
+    font-size: 2rem;
+  }
+  /* Stack footer social icons vertically */
+  footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Adjust accordion button font size */
+  .accordion-button {
+    font-size: 1rem;
+  }
+  /* Reduce icon size on small screens for better layout */
+  a[aria-label] {
+    font-size: 1.2rem;
+    margin: 0.3rem 0.2rem;
+  }
+}
+
+/* Additional styles for better spacing and appearance */
+.mb-3 {
+  margin-bottom: 1rem;
+}
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+.mt-3 {
+  margin-top: 1rem;
+}
+.mt-4 {
+  margin-top: 1.5rem;
+}
+.mt-5 {
+  margin-top: 2rem;
+}
+.text-center {
+  text-align: center;
+}
+.shadow-sm {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,151 @@
+body {
+  font-family: 'Montserrat', 'Alegreya Sans', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+}
+
+/* Container max width and padding */
+.container {
+  max-width: 1200px;
+  padding: 15px;
+}
+
+/* Navbar styles */
+.navbar {
+  padding: 0.5rem 1rem;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.navbar-brand img {
+  border-radius: 50%;
+  object-fit: cover;
+  border-radius: 50%;
+  object-fit: cover;
+  height: 20px;
+  width: 60px;
+  margin-right: 10px;
+  border-radius: 100%;
+
+}
+.nav-link {
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.nav-link:hover {
+  color: #ffc107; /* Bootstrap warning color for hover effect */
+}
+
+/* Main Heading */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* Section headings */
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Contact info styles */
+h3 + p {
+  margin-bottom: 0.75rem;
+}
+
+/* Follow us icons */
+a[aria-label] {
+  font-size: 1.8rem;
+  margin-right: 1rem;
+  transition: transform 0.2s;
+}
+a[aria-label]:hover {
+  transform: scale(1.2);
+}
+
+/* Map iframe styles */
+iframe {
+  width: 100%;
+  height: 250px;
+  border: 0;
+}
+/* Contact form styles */
+form {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.form-control {
+  border-radius: 4px;
+}
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+#successPagination {
+  display: none;
+  margin-top: 1.5rem;
+}
+
+/* Newsletter signup styles */
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+#newsletterMsg {
+  display: none;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #28a745; /* Bootstrap success color */
+}
+
+/* Footer styles */
+footer {
+  background-color: #007bff;
+  color: #fff;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  border-top: 4px solid #0069d9;
+}
+footer h4 {
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer p {
+  margin: 0.5rem 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  a[aria-label] {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  iframe {
+    height: 250px;
+  }
+  footer {
+    padding: 1rem;
+  }
+  @media (min-width: 768px) {
+  iframe {
+    height: 400px;
+  }
+}
+}
