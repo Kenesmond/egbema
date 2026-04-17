@@ -1,20 +1,44 @@
+// Wait for the DOM to load
 document.addEventListener('DOMContentLoaded', () => {
-  // Example: Smooth scroll for internal links (if any)
-  const links = document.querySelectorAll('a.nav-link');
+  const sections = document.querySelectorAll('section');
+  const options = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.6 // when 60% of section visible
+  };
 
-  links.forEach(link => {
-    link.addEventListener('click', (e) => {
-      e.preventDefault();
-      const targetId = link.getAttribute('href');
-      const targetElement = document.querySelector(targetId);
-      if (targetElement) {
-        targetElement.scrollIntoView({ behavior: 'smooth' });
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // Remove active from all links
+        navLinks.forEach(link => link.classList.remove('active'));
+        // Add active to the current link
+        const id = entry.target.id;
+        const activeLink = document.querySelector(`.navbar-nav a[href="#${id}"]`);
+        if (activeLink) {
+          activeLink.classList.add('active');
+        }
+      }
+    });
+  }, options);
+
+  // Assign IDs to sections for observation
+  sections.forEach(section => {
+    if (!section.id) {
+      section.id = section.querySelector('h1, h2').textContent.trim().toLowerCase().replace(/\s+/g, '-');
+    }
+    observer.observe(section);
+  });
+
+  // Optional: collapse the navbar when a link is clicked (Bootstrap does this automatically)
+  // But if needed, you can manually toggle the collapse:
+  const navbarCollapse = document.getElementById('navbarNav');
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+      if (bsCollapse && navbarCollapse.classList.contains('show')) {
+        bsCollapse.hide();
       }
     });
   });
-
-  // Optional: Alert or welcome message
-  // alert('Welcome to the Culture Page of Egbema Oil Kingdom!');
-
-  // You can add more interactive features here
 });
