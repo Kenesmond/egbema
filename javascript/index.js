@@ -1,7 +1,7 @@
 const communities = [
   {
     name: "Mmahu",
-    traditional: "HRH Eze Cosmos Ikechukwu Iwuagwu",
+    traditional: "HRH Eze Cosmos Ikechukwu Iwuoha",
     title: "Eze Mma 1 of Mmahu",
     landmark: "Mmahu River Crossing",
     population: "10,000 with 12 Villages",
