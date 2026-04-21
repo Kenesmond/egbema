@@ -396,8 +396,7 @@ footer a:hover {
     align-items: center;
   }
   .video {
-      width: 100%;
-      max-width: 640px;
+      width: 50%;
       height: auto;
       display: block;
       margin: 20px auto; 
