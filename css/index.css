@@ -22,11 +22,6 @@ video {
     border-radius: 8px; 
     border: thick solid gold;
 }
-.logo-img {
-      height: 40px;
-      margin-right: 10px;
-}
-    /* Style for the logo image in navbar */
 .navbar-brand img {
     border-radius: 50%;
     object-fit: cover;
@@ -35,7 +30,6 @@ video {
     margin-right: 10px;
     border-radius: 100%;
 }
-
 .niger h6{
   background-color: green;
   color: gold;
