@@ -1,3 +1,14 @@
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-weight: 500;
+}
  h1 {
   font-family: Arial, sans-serif;
   font-weight: bold;
@@ -7,7 +18,14 @@
 .card {
   transition: transform 0.2s;
 }
-
+.navbar-brand img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 20px;
+  width: 60px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
 .card:hover {
   transform: scale(1.05);
 }
