@@ -37,6 +37,19 @@ body {
   height: 150px;
   object-fit: cover;
 }
+.elite h1{
+  text-align: center;
+  justify-content: center;
+  font-weight: 500;
+  color: blue;
+}
+
+.elite h2{
+  text-align: center;
+  justify-content: center;
+  font-weight: 500;
+  color: blue;
+}
 
 /* Footer styles */
 footer {
