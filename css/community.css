@@ -53,6 +53,11 @@ p {
   margin-left: 20px;
   font-weight: 600;
   font-size: 1rem;
+  background-color: azure;
+}
+.row h4{
+  text-align: center;
+  justify-content: center;
 }
 
 /* Accordion styles */

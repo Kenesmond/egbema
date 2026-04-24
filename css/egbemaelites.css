@@ -1,0 +1,60 @@
+ h1 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* Style the profile cards */
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Style for profile images */
+.card-img-top {
+  border-radius: 50%;
+  max-width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Footer styles */
+footer {
+  background-color: #007bff; /* Bootstrap primary color */
+}
+
+footer h4 {
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+/* Social media icons size */
+footer svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* Stack social media icons vertically */
+  footer .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Adjust spacing for social icons */
+  footer a {
+    margin: 10px 0;
+  }
+
+  /* Reduce profile image size on small screens */
+  .card-img-top {
+    width: 100px;
+    height: 100px;
+  }
+}
