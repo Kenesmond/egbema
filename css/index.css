@@ -396,7 +396,34 @@ footer a:hover {
       height: 40px;
       margin-right: 10px;
     }
+  .video-grid .row {
+    flex-direction: column;
   }
+
+  /* Reduce iframe height for smaller screens */
+  .video-grid iframe {
+    height: 150px;
+  }
+
+  /* Adjust text sizes if needed */
+  .kingdom h2 {
+    font-size: 1.5rem;
+  }
+
+  /* Optional: Center align text for small screens */
+  .kingdom h2 {
+    text-align: center;
+  }
+
+  /* Adjust padding/margins for other elements as needed */
+  .heritage,
+  .culture,
+  .masquerade,
+  .history {
+    padding: 10px;
+  }
+}
+  
 
   
 
