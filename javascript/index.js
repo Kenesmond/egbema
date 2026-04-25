@@ -44,61 +44,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-const API_KEY = 'YOUR_YOUTUBE_API_KEY'; // Replace with your API key
-const SEARCH_QUERY = 'Egbema Oil Kingdom Imo Rivers'; // Your search term
-
-// Function to fetch videos from YouTube API
-async function fetchYouTubeVideos() {
-  const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=6&q=${encodeURIComponent(SEARCH_QUERY)}&key=${API_KEY}`;
-
-  try {
-    const response = await fetch(url);
-    const data = await response.json();
-
-    if (data.items) {
-      const videoIDs = data.items.map(item => item.id.videoId);
-      loadVideoGrid(videoIDs);
-    } else {
-      console.error('No videos found');
-    }
-  } catch (error) {
-    console.error('Error fetching YouTube videos:', error);
-  }
-}
-
-// Function to populate the video grid dynamically
-function loadVideoGrid(videoIDs) {
-  const container = document.querySelector('.video-grid .row');
-  container.innerHTML = ''; // Clear existing videos
-
-  videoIDs.forEach((id) => {
-    const colDiv = document.createElement('div');
-    colDiv.className = 'col-md-4 col-sm-6';
-
-    const embedDiv = document.createElement('div');
-    embedDiv.className = 'embed-responsive embed-responsive-16by9';
-
-    const iframe = document.createElement('iframe');
-    iframe.className = 'w-100';
-    iframe.height = '200';
-    iframe.src = `https://www.youtube.com/embed/${id}`;
-    iframe.title = `YouTube video ${id}`;
-    iframe.frameBorder = '0';
-    iframe.allowFullscreen = true;
-
-    embedDiv.appendChild(iframe);
-    colDiv.appendChild(embedDiv);
-    container.appendChild(colDiv);
-  });
-}
-
-// Initialize the page
-document.addEventListener('DOMContentLoaded', () => {
-  fetchYouTubeVideos();
-});
-// Optional: Handle Bootstrap menu toggle if needed (Bootstrap 5 handles this automatically)
-// No extra code needed unless you want custom behavior
-
 
 // const communities = [
 //   {
