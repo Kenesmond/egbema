@@ -303,6 +303,7 @@ h4 {
   #pagination-controls {
     flex-direction: row;
     align-items: center;
+    margin-left: 20px;
   }
 
   #pagination-controls .btn {
