@@ -301,12 +301,12 @@ h4 {
   }
 
   #pagination-controls {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
   #pagination-controls .btn {
-    width: 80%;
+    width: 50%;
     margin-bottom: 10px;
   }
 
