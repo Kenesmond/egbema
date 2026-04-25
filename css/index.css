@@ -395,7 +395,10 @@ footer a:hover {
   header p {
     font-size: 1rem;
   }
-
+  #pagination-controls .btn {
+    width: 50%;
+    margin-bottom: 10px;
+  }
   #community-grid {
     flex-direction: column;
     align-items: center;
