@@ -120,6 +120,7 @@ header p {
   border-radius: 8px;
   margin-bottom: 20px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-left: 5px;
 }
 
 .history h2 {
@@ -128,6 +129,7 @@ header p {
   text-align: center;
   color: blue;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-left: 5px;
 }
 
 .history h3 {
@@ -135,12 +137,14 @@ header p {
   font-size: 1.5rem;
   color: blue;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-left: 5px;
 }
 .history h4{
   margin-top: 10px;
   font-size: 1.25rem;
   color: goldenrod;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-left: 5px;
 }
 
 .history ul {
@@ -149,6 +153,7 @@ header p {
   padding-left: 20px;
   margin-top: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-left: 5px;
 }
 
 .history p {
@@ -156,6 +161,7 @@ header p {
   margin-top: 10px;
   line-height: 1.6;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-left: 5px;
 }
 .culture{
   color:blue;
@@ -164,6 +170,7 @@ header p {
   border-radius: 8px;
   margin-bottom: 20px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-left: 5px;
   
 }
 .culture p{
@@ -176,12 +183,14 @@ header p {
   border-radius: 8px;
   margin-bottom: 20px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-left: 5px;
 }
 .masquerade h2{
   color: blue;
 }
 .history h1{
   color: blue;
+  margin-left: 10px;
 }
 .history h4{
   color: blue;
@@ -226,6 +235,7 @@ h4 {
   margin-top: 20px;
   text-align: center;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-left: 10px;
 }
 
 .heritage h6 {
