@@ -299,6 +299,35 @@ h4 {
 .card {
     width: 90%;
   }
+ 
+  /* Existing styles for pagination controls */
+#pagination-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+#pagination-controls .btn {
+  min-width: 50px;
+  font-weight: 700;
+}
+
+/* Responsive styles for pagination controls
+@media (max-width: 768px) {
+  #pagination-controls {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #pagination-controls .btn {
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+  }
+} */
+
 
   #pagination-controls {
     flex-direction: column;
@@ -398,11 +427,22 @@ footer a:hover {
   header p {
     font-size: 1rem;
   }
+  #pagination-controls {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
   #pagination-controls .btn {
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+  }
+  /* #pagination-controls .btn {
     width: 50px;
     margin-bottom: 10px;
     margin-left: 15px;
-  }
+  } */
   #community-grid {
     flex-direction: column;
     align-items: center;
