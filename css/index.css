@@ -27,6 +27,18 @@ body {
   color: gold;
   font-weight: 800;
 }
+.kingdom h2{
+  text-align: center;
+  color: blue;
+  font-weight: 700;
+  font-size: 2.9rem; 
+}
+.kingdom p{
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
 /* Header styles */
 header h1 {
   font-size: 2.8rem;
