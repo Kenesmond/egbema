@@ -97,30 +97,16 @@ header p {
   padding: 15px;
 }
 
-/* Pagination buttons */
-/* #pagination-controls {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  gap: 20px;
-  
-} */
-
-/* #pagination-controls .btn {
-  min-width: 50px;
-  font-weight: 700;
-} */
 .button{
   display: flex;
   justify-content: center;
-  margin-top: 20px;
   margin-left: 90px;
-  gap: 20px;
+  
 }
 .button1{
   display: flex;
   justify-content: center;
-  
+  margin-left: 90px;
 
 }
 /* About section styles */
