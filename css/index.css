@@ -460,7 +460,6 @@ footer a:hover {
   .kingdom h2 {
     text-align: center;
   }
-
   /* Adjust padding/margins for other elements as needed */
   .heritage,
   .culture,
@@ -472,6 +471,7 @@ footer a:hover {
   display: flex;
   justify-content: center;
   margin: 20px auto;
+  align-items:center;
 }
 }
   
