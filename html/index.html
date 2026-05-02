@@ -13,65 +13,73 @@
 <body>
 
 <div class="container ml-4">
-    <div class="contain">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand d-flex align-items-center" href="#">
-            <img src="../image/egbe3.jpg" alt="" style="height:40px; margin-right:10px;"> 
-            Egbema Oil Kingdom
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation ">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link active" href="index.html">Dashboard</a></li>
-              <li class="nav-item"><a class="nav-link active" href="egbemaelites.html">EgbemaElites</a></li>
-              <li class="nav-item"><a class="nav-link active" href="community.html">Communities</a></li>
-              <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
-              <li class="nav-item"><a class="nav-link active" href="culture.html">Culture</a></li>
-              <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-        </div>
+        <div class="contain">
+      <header>
+      <div class="logo">
+        <img src="../image/egbe3.jpg" alt="Egbema Oil Kingdom Logo" />
+        <h1>Egbema Oil Kingdom</h1>
+      </div>
+      <nav>
+        <a href="about.html"><ion-icon name="information-circle-outline"></ion-icon>About Us</a>
+        <a href="egbemaelites.html"><ion-icon name="construct-outline"></ion-icon>egbemaelite</a>
+        <a href="community.html"><ion-icon name="images-outline"></ion-icon>Communities</a>
+        <a href="culture.html"><ion-icon name="videocam-outline"></ion-icon>Culture</a>
+        <a href="contact.html"><ion-icon name="call-outline"></ion-icon>Contact</a>
       </nav>
+    </header>
 
-     <div class="heritage bg-secondary p-4 mb-4">
-        <div class="niger text-primary p-4 mb-4">
-          <h6 class="text-white ">A Niger Delta Heritage</h6>
-        </div>
-      </div>
-       
-      <div class="kingdom bg-light p-4 mb-4">
-          <h2 class="text-warning">Egbema Oil</h2>
-          <h2 class="text-danger">Kingdom</h2>
-          <h2 class="text-secondary">Where Tradition</h2>
-          <h2 class="text-primary">Meets Prosperity</h2>
-      </div>
-
-      <p class="text-secondary text-align-justify text-center">
-        A historic riverine kingdom of the 16 vibrant communities, cradle of oil
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Egbema Oil Kingdom</h1>
+        <h2>Where Tradition Meets Prosperity</h2>
+        <p>A historic riverine kingdom of the 16 vibrant communities, cradle of oil
         wealth, and guardian of ancient Igbo traditions. Discover our resilience, culture,
-        and enduring spirit.
-      </p>
-
-      <!-- YouTube Video Grid -->
-      <div class="video-grid my-4">
-        <div class="row g-3">
-          <div class="col-md-4 col-sm-6">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="w-100" height="200" src="https://www.youtube.com/embed/VIDEO_ID_1" title="YouTube video 1" frameborder="0" allowfullscreen></iframe>
-            </div>
-          </div>
-          <!-- Add more videos as needed -->
-        </div>
+        and enduring spirit.</p>
+        <p>Leading the way in oil exploration, production, and energy solutions</p>
+        <button class="btn-primary">Learn More</button>
+        
       </div>
+    </section>
 
-      <header class="text-center text-warning">
+    <!-- About Us -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p style="max-width:800px; margin:auto; font-size:1.1em; line-height:1.5;">
+        <p>
+      <h4 class="text-secondary text-center text-align-justify">Rooted in the Niger Delta, shaped by the flow of Oil and ancestral traditions</h4>  
+    </p>
+    <p class="text-align-justify">
+      The Egbema kingdom, located in Imo and Rivers states, is an ancient, oil-rich, primarily Igbo-speaking community (specifically 16 villages) with deep roots in the Niger Delta. Historically linked to early Portuguese trade (c. 1445), it became a crucial trading hub, now heavily impacted by oil exploitation, pollution, and administrative division.
+    </p>
+        Egbema Oil Kingdom is an oil rich region dedicated to sustainable energy development, innovation, and community growth. With decades of experience, we excel in exploration, extraction, and energy management, ensuring a brighter future for our stakeholders and nation.
+      </p>
+    </section>
+
+    <!-- Services -->
+   <section id="services">
+        <h2>Our Services</h2>
+        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px;">
+            <div style="flex:1 1 250px; background:#f0f0f0; padding:20px; border-radius:10px; text-align:center;">
+            <ion-icon name="analytics-outline" style="font-size:2em; color:#2c5364;"></ion-icon>
+            <h3>Oil Exploration</h3>
+            <p>Advanced techniques for discovering new oil reserves with minimal environmental impact.</p>
+            </div>
+            <div style="flex:1 1 250px; background:#f0f0f0; padding:20px; border-radius:10px; text-align:center;">
+            <ion-icon name="construct-outline" style="font-size:2em; color:#2c5364;"></ion-icon>
+            <h3>Production & Extraction</h3>
+            <p>Efficient and sustainable extraction methods ensuring quality output and safety.</p>
+            </div>
+            <div style="flex:1 1 250px; background:#f0f0f0; padding:20px; border-radius:10px; text-align:center;">
+            <ion-icon name="leaf-outline" style="font-size:2em; color:#2c5364;"></ion-icon>
+            <h3>Renewable Energy</h3>
+            <p>Investing in alternative energy sources for a greener tomorrow.</p>
+            </div>
+        </div>
+    </section>
+        <header class="text-center text-warning">
           <h1>Explore the Communities and their Histories in Egbema Oil Kingdom</h1>
       </header>
-
       <div class="button">
           <a  href="community.html" class="btn btn-primary text-white me-2 mb-1  ml-4" id="click-btn">Click Here to View The Rulers & Landmarks</a>
       </div>
@@ -81,24 +89,17 @@
         <a href="egbemaelites.html" class="btn btn-danger align-items-center text-white ml-4 pd-4 me-2 mb-2" id="click-btn">Click Here to See Egbema Elites of The Kingdom</a>
       </div>
     </div>
-  
-    <div class="media">
-      <img src="../image/map.jpg" alt="" style="width:200px; height:auto; margin:10px; border:2px solid #ccc;">
-      <img src="../image/land6.jpg" alt="" style="width:200px; height:auto; margin:10px; border:2px solid #ccc;">
-      <img src="../image/land9.jpg" alt="" style="width:200px; height:auto; margin:10px; border:2px solid #ccc;">
-      <img src="../image/land8.jpg" alt="" style="width:200px; height:auto; margin:10px; border:2px solid #ccc;">
-    </div>
 
-  
-  <!-- About the Egbema Kingdom -->
-  <div class="history mb-4 ml-4">
-    <h3 class="text-center mb-3 text-primary">ABOUT THE EGBEMA KINGDOM</h3>
-    <p>
-      <h4 class="text-secondary text-center text-align-justify">Rooted in the Niger Delta, shaped by the flow of Oil and ancestral traditions</h4>  
-    </p>
-    <p class="text-align-justify">
-      The Egbema kingdom, located in Imo and Rivers states, is an ancient, oil-rich, primarily Igbo-speaking community (specifically 16 villages) with deep roots in the Niger Delta. Historically linked to early Portuguese trade (c. 1445), it became a crucial trading hub, now heavily impacted by oil exploitation, pollution, and administrative division.
-    </p>
+    <!-- Videos -->
+    <section id="videos">
+      <h2>Our Videos</h2>
+      <div class="videos">
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/5qap5aO4i9A" allowfullscreen></iframe>
+      </div>
+    </section>
+
+
     <h3 class="text-primary text-center"><ion-icon name="earth-outline text-primary " ></ion-icon> Origins and History</h3>
     <ul class="text-align-justify">
       <li><strong>Migration and Location:</strong> The Egbema people in Imo/Rivers states have historical links to, or migrations from, older Delta regions, with traditions referring to early trade with Europeans. The kingdom was divided on Feb 3, 1976, leaving 13 villages in the Ohaji/Egbema LGA of Imo State and 3 in Ogba/Ndoni/Egbema LGA of Rivers State.</li>
@@ -113,14 +114,15 @@
 
       <h2 class="text-primary text-center">Origin And Settlement</h2>
       Oral traditions suggest that the Egbema people originated from a migration from the ancient Benin Empire or the Igbo heartland (Isuama area) around the 15th-16th century. 
-      The Progenitor: The community was founded by a progenitor named Egbema.
-      Settlement Site: Early settlers initially established themselves at a marshy location known as Ali Upa, located between present-day Okwuzi and Mgbede.
-      The First Separation: Due to annual flooding at Ali Upa, the community separated under two leaders (sometimes referred to as brothers): Ntia, who moved to found Mgbede, and Ofeke, who moved to found Okwuzi. 
+      The Progenitor: The community was founded by a progenitor named Egbema. <p>
+     
+      <strong>Settlement Site:</strong> Early settlers initially established themselves at a marshy location known as Ali Upa, located between present-day Okwuzi and Mgbede. <br>
+      <strong>The First Separation:</strong> Due to annual flooding at Ali Upa, the community separated under two leaders (sometimes referred to as brothers): Ntia, who moved to found Mgbede, and Ofeke, who moved to found Okwuzi. 
       The 16 Villages and Disintegration (Decentralization) 
-      Over time, these two original settlements expanded into a distinct clan structure of 16 (or sometimes listed as 17) communities, including Abacheke, Mmahu, Obiakpu, Etekwuru, Mgbede, Aggah, Okwuzi, Obokofia, Abaezhi, Umudike, Umuoji, Mgbara, Opuoma, Obeakpu, Ekugba, and Ofuruola. 
-      The Split (1976): Originally, these 16 communities functioned as one cohesive unit within the Ahoada Division (later Rivers State).
-      Colonial/Post-Colonial Politics: Following the 1976 boundary adjustments (Mamman Nasir Boundary Commission), 3 villages (Mgbede, Aggah, and Okwuzi) were moved to Rivers State, while the remaining 13 remained in Imo State (Ohaji/Egbema).
-      Current State: The clan is currently split between two states (Imo and Rivers), with the traditional stool still having oversight over the entire area despite the political division. 
+      Over time, these two original settlements expanded into a distinct clan structure of 16 communities, including Abacheke, Mmahu, Obiakpu, Etekwuru, Mgbede, Aggah, Okwuzi, Obokofia, Abaezhi, Umudike, Umuoji, Mgbara, Opuoma, Obeakpu, Ekugba, and Ofuruola. <br>
+      <strong>The Split (1976):</strong> Originally, these 16 communities functioned as one cohesive unit within the Ahoada Division (later Rivers State).
+      Colonial/Post-Colonial Politics: Following the 1976 boundary adjustments (Mamman Nasir Boundary Commission), 3 villages (Mgbede, Aggah, and Okwuzi) were moved to Rivers State, while the remaining 13 remained in Imo State (Ohaji/Egbema). <br>
+      <strong>Current State:</strong> The clan is currently split between two states (Imo and Rivers), with the traditional stool still having oversight over the entire area despite the political division. 
 
       <h2 class="text-primary text-center">Eldest And Igwaji Dichotomy</h2>
       A key feature of Egbema traditional structure is the hierarchy based on age and land ownership: 
@@ -153,16 +155,6 @@
       <h2 class="text-primary text-center">Present Day Time</h2>
       Today, Egbema is a vital oil-producing region, rich in natural resources, but faces development challenges due to its political splitting between two states. The community continues to operate under the traditional leadership of the Nze-Obi while seeking unity and a consolidated local
       government administration, often advocating for a return to a single, unified administrative unit.
-
-      <h2 class="text-primary text-center">Disintegration And Migration</h2>
-      Oral tradition indicates the Egbema progenitor migrated from the ancient Benin Empire (Ogee) around the 15th century (approx. 1460 AD) to escape inter-tribal wars. They moved through the hinterland before settling in their current territory, which was initially called Alinso—a marshy area suitable for fishing and farming. 
-      The early settlers, led by the mythical figure Egbema, first settled at Ali Upa, a central, marshy area located between the modern communities of Okwuzi and Mgbede. 
-      Settlement and Disintegration (The 16 Villages)
-      The "disintegration" of the early settlement was actually an expansion due to population growth and the need for better farmland.
-      The Original Split: The core population split from the original site (Ali Upa) due to flooding and poor habitation suitability.
-      Eldest Communities: According to traditions, two descendants named Ntia and Ofeke lived at Ali Upa. Ntia (elder brother) relocated to present-day Mgbede, while Ofeke (younger brother) relocated to Okwuzi.
-      Evolution of the 16+ Villages: From these two main centers, the population expanded, establishing other villages to make up the 16+ traditional villages known today, including Abacheke, Aggah, Etekwuru, Opuoma, Obiakpu,
-      mmahu, mgbara,ekugba, umorji, obokofia, umudike, ofuruola, obeakpu and abaezi. 
 
     </div>
 
@@ -335,6 +327,7 @@
 </div>
 <!-- Bootstrap JS Bundle (includes Popper) -->
  <script src="../javascript/index.js"></script>
+ <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
