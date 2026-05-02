@@ -13,23 +13,31 @@
 <body>
 
 <div class="container ml-4">
-        <div class="contain">
-      <header>
-      <div class="logo">
-        <img src="../image/egbe3.jpg" alt="Egbema Oil Kingdom Logo" />
-        <h1>Egbema Oil Kingdom</h1>
-      </div>
-      <nav>
-        <a href="about.html"><ion-icon name="information-circle-outline"></ion-icon>About Us</a>
-        <a href="egbemaelites.html"><ion-icon name="construct-outline"></ion-icon>egbemaelite</a>
-        <a href="community.html"><ion-icon name="images-outline"></ion-icon>Communities</a>
-        <a href="culture.html"><ion-icon name="videocam-outline"></ion-icon>Culture</a>
-        <a href="contact.html"><ion-icon name="call-outline"></ion-icon>Contact</a>
-      </nav>
-    </header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="../image/egbe3.jpg" alt="" style="height:40px; margin-right:10px;"> 
+                Egbema Oil Kingdom
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="community.html">Communities</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="culture.html">Culture</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="egbemaelites.html">Elites</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;">
       <div class="hero-content">
         <h1>Welcome to Egbema Oil Kingdom</h1>
         <h2>Where Tradition Meets Prosperity</h2>
@@ -44,7 +52,7 @@
 
     <!-- About Us -->
     <section id="about">
-      <h2>About Us</h2>
+      <h2 class="text-primary text-center">About Us</h2>
       <p style="max-width:800px; margin:auto; font-size:1.1em; line-height:1.5;">
         <p>
       <h4 class="text-secondary text-center text-align-justify">Rooted in the Niger Delta, shaped by the flow of Oil and ancestral traditions</h4>  
@@ -58,21 +66,21 @@
 
     <!-- Services -->
    <section id="services">
-        <h2>Our Services</h2>
+        <h2 class="text-primary text-center">Our Services</h2>
         <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px;">
             <div style="flex:1 1 250px; background:#f0f0f0; padding:20px; border-radius:10px; text-align:center;">
             <ion-icon name="analytics-outline" style="font-size:2em; color:#2c5364;"></ion-icon>
-            <h3>Oil Exploration</h3>
+            <h3 class="text-primary text-center">Oil Exploration</h3>
             <p>Advanced techniques for discovering new oil reserves with minimal environmental impact.</p>
             </div>
             <div style="flex:1 1 250px; background:#f0f0f0; padding:20px; border-radius:10px; text-align:center;">
             <ion-icon name="construct-outline" style="font-size:2em; color:#2c5364;"></ion-icon>
-            <h3>Production & Extraction</h3>
+            <h3 class="text-primary text-center">Production & Extraction</h3>
             <p>Efficient and sustainable extraction methods ensuring quality output and safety.</p>
             </div>
             <div style="flex:1 1 250px; background:#f0f0f0; padding:20px; border-radius:10px; text-align:center;">
             <ion-icon name="leaf-outline" style="font-size:2em; color:#2c5364;"></ion-icon>
-            <h3>Renewable Energy</h3>
+            <h3 class="text-primary text-center">Renewable Energy</h3>
             <p>Investing in alternative energy sources for a greener tomorrow.</p>
             </div>
         </div>
@@ -92,7 +100,7 @@
 
     <!-- Videos -->
     <section id="videos">
-      <h2>Our Videos</h2>
+      <h2 class="text-primary text-center">Our Videos</h2>
       <div class="videos">
         <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
         <iframe src="https://www.youtube.com/embed/5qap5aO4i9A" allowfullscreen></iframe>
@@ -113,13 +121,13 @@
       Igbo-speaking group with 16 traditional communities that share a common history and ancestry. 
 
       <h2 class="text-primary text-center">Origin And Settlement</h2>
-      Oral traditions suggest that the Egbema people originated from a migration from the ancient Benin Empire or the Igbo heartland (Isuama area) around the 15th-16th century. 
-      The Progenitor: The community was founded by a progenitor named Egbema. <p>
+      Oral traditions suggest that the Egbema people originated from a migration from the ancient Benin Empire or the Igbo heartland (Isuama area) around the 15th-16th century. <br>
+      <strong>The Progenitor:</strong> The community was founded by a progenitor named Egbema. <p>
      
       <strong>Settlement Site:</strong> Early settlers initially established themselves at a marshy location known as Ali Upa, located between present-day Okwuzi and Mgbede. <br>
       <strong>The First Separation:</strong> Due to annual flooding at Ali Upa, the community separated under two leaders (sometimes referred to as brothers): Ntia, who moved to found Mgbede, and Ofeke, who moved to found Okwuzi. 
       The 16 Villages and Disintegration (Decentralization) 
-      Over time, these two original settlements expanded into a distinct clan structure of 16 communities, including Abacheke, Mmahu, Obiakpu, Etekwuru, Mgbede, Aggah, Okwuzi, Obokofia, Abaezhi, Umudike, Umuoji, Mgbara, Opuoma, Obeakpu, Ekugba, and Ofuruola. <br>
+      Over time, these two original settlements expanded into a distinct clan structure of 16 communities, including Abacheke, Mmahu, Obiakpu, Etekwuru, Mgbede, Aggah, Okwuzi, Obokofia, Abaezi, Umudike, Umuoji, Mgbara, Opuoma, Obeakpu, Ekugba, and Ofuruola. <br>
       <strong>The Split (1976):</strong> Originally, these 16 communities functioned as one cohesive unit within the Ahoada Division (later Rivers State).
       Colonial/Post-Colonial Politics: Following the 1976 boundary adjustments (Mamman Nasir Boundary Commission), 3 villages (Mgbede, Aggah, and Okwuzi) were moved to Rivers State, while the remaining 13 remained in Imo State (Ohaji/Egbema). <br>
       <strong>Current State:</strong> The clan is currently split between two states (Imo and Rivers), with the traditional stool still having oversight over the entire area despite the political division. 
@@ -127,10 +135,10 @@
       <h2 class="text-primary text-center">Eldest And Igwaji Dichotomy</h2>
       A key feature of Egbema traditional structure is the hierarchy based on age and land ownership: 
       The Eldest Communities: Mgbede and Okwuzi are considered the traditional elder brothers and the oldest communities founded by the descendants of the progenitor, often taking precedence in traditional matters.
-      Igwaji (New Yam Festival): The Igwaji Aggah is a significant annual New Yam festival that unifies all 16 communities, serving as a cultural bond that overrides the political division. <p>
+      <strong>Igwaji (New Yam Festival):</strong> The Igwaji Aggah is a significant annual New Yam festival that unifies all 16 communities, serving as a cultural bond that overrides the political division. <p>
       The distinction between the communities is largely based on seniority (first-born status) rather than a rigid hierarchy of power. <p>
       The Eldest: Mgbede is often considered the eldest village because of its origin from Ntia (the elder son). <p>
-      The Igwaji Dichotomy: Igwaji (or Iguadiaga) is the traditional new yam festival and the supreme sociocultural unifier of the Egbema people. The Igwaji dichotomy refers to the staggered or unique nature of the celebration across the villages, particularly acknowledging the seniority 
+      <strong>The Igwaji Dichotomy:</strong> Igwaji (or Iguadiaga) is the traditional new yam festival and the supreme sociocultural unifier of the Egbema people. The Igwaji dichotomy refers to the staggered or unique nature of the celebration across the villages, particularly acknowledging the seniority 
       of the pioneering villages (Mgbede/Okwuzi) in performing certain rituals first. 
       Despite the political division, the Igwaji festival remains a key cultural event that reinforces the unity of the Egbema people across both states, with the eldest communities often playing a central role in the festivities. 
   
